@@ -4,9 +4,9 @@
     margin: 0;
 }
 
- body {
-    background: #993198;
-    font-family: montserrat;
+body {
+    background: #89129b;
+    font-family: Montserrat, sans-serif;
 }
 
 .container {
@@ -112,7 +112,7 @@ input[type="radio"] {
 }
 
 footer {
-    background: #8a2d89;
+    background: #0000000d;
     text-align: left;
     color: #fff;
     padding: 30px;
