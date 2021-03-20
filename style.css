@@ -1,0 +1,149 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ body {
+    background: #993198;
+    font-family: montserrat;
+}
+
+.container {
+    width: 76%;
+    display: flex;
+    margin: auto;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.campo-nome {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.campo-nome label {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.email label, .contato-realizado-por label, .experiencia-campo label, .campo-redes label {
+    display: block;
+    margin: 3% 0% 0% 0%;
+    margin-bottom: 2%;
+}
+
+ 
+
+input {
+    padding: 9px;
+    box-shadow: 0px 6px 2px 0px #00000017;
+    border: none;
+    border-radius: 4px;
+}
+ 
+
+.campo-redes input {
+    margin: 11px;
+}
+
+select {
+    width: 100%;
+    padding: 9px;
+}
+
+textarea#mensagem {
+    width: 94.8%;
+    padding: 10px;
+    font-family: open sans;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 100px;
+    margin: auto;
+    width: 27%;
+    float: right;
+    padding: 9px 12px;
+    cursor: pointer;
+    background: #993198;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: 2px solid #ffde42;
+    font-family: 'Montserrat';
+    margin-top: 1%;
+}
+
+input[type="radio"] {
+    box-shadow: unset;
+}
+.titulo {
+    width: 39%;
+    padding: 13px;
+}
+
+.formu {
+    width: 46%;
+}
+ 
+ .titulo h1 {
+    font-weight: 900;
+    letter-spacing: -4px;
+    font-style: italic;
+    font-size: 3.99em;
+    line-height: 104%;
+    margin-bottom: 2%;
+}
+
+.titulo strong {
+    color: #ffde42;
+    font-weight: 900;
+}
+
+.titulo h3 {
+    text-transform: uppercase;
+    font-size: 0.51em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+footer {
+    background: #8a2d89;
+    text-align: left;
+    color: #fff;
+    padding: 30px;
+    font-size: 0.75em;
+}
+
+@media only screen and (max-width: 900px) {
+    .titulo {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 10%;
+    }
+    
+    .formu {
+        width: 100%;
+    }
+    
+    .container {
+        display: block;
+        width: 92%;
+        margin-bottom: 33%;
+    }
+    
+    .titulo h1 {
+        font-size: 3em;
+        letter-spacing: -3px;
+        text-align: center;
+    }
+    
+    .titulo h3 {
+        text-align: center;
+        line-height: 15px;
+    }
+}
